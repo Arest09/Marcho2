@@ -1,3 +1,10 @@
-body{
-    
+body {
+    color: $deafualt-color;
+    @extend %quicksand-500;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
 }
