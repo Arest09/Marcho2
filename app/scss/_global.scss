@@ -1,4 +1,6 @@
 body {
+    font-size: 16px;
+    line-height: 25px;
     color: $deafualt-color;
     @extend %quicksand-500;
 }
@@ -7,4 +9,11 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px 0 15px 0;
+}
+
+a{
+    font-size: 16px;
+    line-height: 25px;
+    color: $deafualt-color;
+    @extend %quicksand-500;
 }
