@@ -10,7 +10,6 @@ $bg-color:#f6f6f6;
 
 %quicksand-500 {
     font-family: 'Quicksand-Medium', sans-serif;
-    ;
     font-weight: 500;
 }
 
@@ -34,9 +33,10 @@ $bg-color:#f6f6f6;
 }
 
 
- @function max($numbers...){
-     @return m#{a}x(#{$numbers});
-     }
-     @function min($numbers...){
-     @return m#{i}n(#{$numbers});
-     }
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+    @return m#{i}n(#{$numbers});
+}
