@@ -812,17 +812,17 @@
         display: block;
         width: 100%;
         border: none;
-        background-color:$bg-color;
+        background-color: $bg-color;
         margin-top: 4px;
         height: 60px;
         padding: 0 15px;
     }
 
-    &__btn{
+    &__btn {
         display: block;
         background-color: $title-color;
         text-transform: uppercase;
-        color:#fff;
+        color: #fff;
         @extend %Roboto-400;
         padding: 14px 0;
         width: 100%;
@@ -831,13 +831,51 @@
         margin-bottom: 12px;
     }
 
-    &__error{
-        color:$accent-color;
+    &__error {
+        color: $accent-color;
     }
 
-    &__text{
-        margin-bottom: 25px;    
+    &__text {
+        margin-bottom: 25px;
     }
 }
 
+.page-404 {
+    padding: 110px 0 120px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__content {
+        max-width: 570px;
+    }
+
+    &__title {
+        color: #28384f;
+        margin-bottom: 43px;
+        @extend %Roboto-700;
+        font-size: 48px;
+
+    }
+
+    &__text {
+      margin-bottom: 55px;
+      max-width: 470px;
+
+    }
+
+    &__link {
+        background-color: $accent-color;
+        color:white;
+        box-shadow: 0px 5px 25px 0px rgba(254, 62, 87, 0.35);
+        padding: 14px 35px;
+        @extend %Roboto-400;
+    }
+
+}
+
+  
 @import'media';
