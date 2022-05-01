@@ -9,7 +9,7 @@ $bg-color:#f6f6f6;
 }
 
 %quicksand-500 {
-    font-family: 'Quicksand-Medium', sans-serif;;
+    font-family: 'Quicksand-Medium', sans-serif;
     font-weight: 500;
 }
 
@@ -23,11 +23,27 @@ $bg-color:#f6f6f6;
     font-weight: 700;
 }
 
-%btn{
+%btn {
     background-color: $accent-color;
     text-transform: uppercase;
-    color:#fff;
+    color: #fff;
     padding: 12px 26px;
     @extend %Roboto-400;
     box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
+}
+
+%checkbox-hidden {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    position: absolute;
+}
+
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+    @return m#{i}n(#{$numbers});
 }
