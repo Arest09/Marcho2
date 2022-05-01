@@ -113,12 +113,12 @@ a {
         padding: 0 35px;
     }
 
-    &__item{
+    &__item {
         padding: 0 15px;
     }
 
-    &__link--active{
-        color:$accent-color;
+    &__link--active {
+        color: $accent-color;
     }
 
     &__arrows {
@@ -151,5 +151,20 @@ a {
             right: 0;
             bottom: 7px;
         }
+    }
+}
+
+
+@media(max-width:620px) {
+    .title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media(max-width:375px) {
+    .title {
+        font-size: 32px;
+        line-height: 40px;
     }
 }

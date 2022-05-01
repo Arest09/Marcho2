@@ -21,6 +21,7 @@
         color: #28384f;
         margin-bottom: 43px;
         @extend %Roboto-700;
+        line-height: 1;
         font-size: 48px;
 
     }
@@ -311,6 +312,9 @@
 
         .product-item {
             margin-bottom: 40px;
+            &__btn{
+               @extend %btn;
+            }
         }
 
         .product-item:last-child {
