@@ -61,7 +61,15 @@ $(function ()
       asNavFor: '.product-slide__thumb',
       draggable: false,
       arrows: false,
-      fade: true
+      fade: true,
+      responsive:[
+        {
+          breakpount:1051,
+          settings:{
+            draggable:true
+          }
+        }
+      ]
     })
 
     $('.shop-content__filter-btn').on('click', function () {
